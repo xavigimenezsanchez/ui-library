@@ -12,14 +12,4 @@ module.exports = {
   core: {
     builder: "webpack5",
   },
-  // webpackFinal: async (config) => {
-  //   // Add SASS support
-  //   // https://storybook.js.org/docs/configurations/custom-webpack-config/#examples
-  //   config.module.rules.push({
-  //     test: /\.scss$/,
-  //     use: ["style-loader", "css-loader", "sass-loader"],
-  //     include: path.resolve(__dirname, "../"),
-  //   });
-  //   return config;
-  // },
 };

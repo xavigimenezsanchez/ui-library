@@ -2,7 +2,7 @@
   "name": "ui-library",
   "version": "1.0.0",
   "main": "./dist/main.js",
-  "types": "./dist/index.d.ts",
+  "types": "./dist/src/index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.10",
