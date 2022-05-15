@@ -1,0 +1,13 @@
+{
+  "name": "ui-library",
+  "version": "1.0.0",
+  "main": "main.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": "17.0.0"
+  },
+  "files": [
+    "./dist"
+  ]
+}
