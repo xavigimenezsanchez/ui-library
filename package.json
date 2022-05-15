@@ -6,6 +6,15 @@
   "license": "MIT",
   "devDependencies": {
     "@babel/core": "^7.17.10",
+    "@storybook/addon-actions": "^6.4.22",
+    "@storybook/addon-essentials": "^6.4.22",
+    "@storybook/addon-interactions": "^6.4.22",
+    "@storybook/addon-links": "^6.4.22",
+    "@storybook/builder-webpack5": "^6.4.22",
+    "@storybook/manager-webpack5": "^6.4.22",
+    "@storybook/preset-scss": "^1.0.3",
+    "@storybook/react": "^6.4.22",
+    "@storybook/testing-library": "^0.0.11",
     "@testing-library/react": "12.0.0",
     "@types/jest": "^27.5.1",
     "@types/node": "^17.0.33",
@@ -17,8 +26,8 @@
     "identity-obj-proxy": "^3.0.0",
     "jest": "^28.1.0",
     "jest-environment-jsdom": "^28.1.0",
-    "react": "17.0.0",
-    "react-dom": "17.0.0",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
     "sass": "^1.51.0",
     "sass-loader": "^12.6.0",
     "style-loader": "^3.3.1",
@@ -33,7 +42,9 @@
     "build": "webpack",
     "tsc": "tsc",
     "test": "jest",
-    "coverage": "jest --coverage"
+    "coverage": "jest --coverage",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "peerDependencies": {
     "react": "17.0.0"
