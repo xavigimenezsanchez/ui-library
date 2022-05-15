@@ -32,7 +32,8 @@
   "scripts": {
     "build": "webpack",
     "tsc": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "coverage": "jest --coverage"
   },
   "peerDependencies": {
     "react": "17.0.0"
